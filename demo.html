@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diabetic Retinopathy Project</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e0f7fa;
+      color: #2c3e50;
+    }
+    a { text-decoration: none; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #009688, #00796b);
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 { margin: 0; font-size: 2.2em; }
+    header p { margin-top: 5px; font-size: 1.1em; }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #004d40;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #ffffff;
+      margin: 10px 15px;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background-color: #00796b;
+    }
+
+    /* Sections */
+    .section {
+      background-color: #ffffff;
+      padding: 25px 20px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .section:hover { transform: translateY(-3px); }
+    .section h2 {
+      color: #00796b;
+      display: flex;
+      align-items: center;
+      font-size: 1.6em;
+    }
+    .section h2 i {
+      margin-right: 10px;
+      color: #009688;
+    }
+
+    /* Buttons */
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #009688;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .button:hover { background: #00796b; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004d40;
+      color: white;
+      margin-top: 30px;
+    }
+
+    /* Lists */
+    ul { padding-left: 20px; }
+    ul li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><i class="fas fa-eye"></i> Diabetic Retinopathy Detection</h1>
+  <p>Machine Learning & MIT App Integration</p>
+</header>
+
+<nav>
+  <a href="#project"><i class="fas fa-project-diagram"></i> Project</a>
+  <a href="#app"><i class="fas fa-mobile-alt"></i> App</a>
+  <a href="#models"><i class="fas fa-database"></i> Models</a>
+  <a href="#report"><i class="fas fa-file-pdf"></i> Report</a>
+  <a href="#github"><i class="fab fa-github"></i> GitHub</a>
+</nav>
+
+<div class="container">
+
+  <div id="project" class="section">
+    <h2><i class="fas fa-project-diagram"></i> About the Project</h2>
+    <p>This project uses deep learning models (VGG16, MobileNet) to detect diabetic retinopathy from retina images. Early detection is critical to prevent vision loss.</p>
+    <ul>
+      <li>Predict DR severity from retina images</li>
+      <li>Uses pre-trained deep learning models</li>
+      <li>Integrates with MIT App Inventor for mobile users</li>
+    </ul>
+  </div>
+
+  <div id="app" class="section">
+    <h2><i class="fas fa-mobile-alt"></i> MIT App Inventor App</h2>
+    <p>The mobile app allows users to upload retina images and get predictions for DR severity.</p>
+    <a class="button" href="https://drive.google.com/drive/folders/1fo9nTZyl4uQWZVRLx_iYossx6IPgsWjs?usp=drive_link" target="_blank">
+      <i class="fas fa-download"></i> Download App APK
+    </a>
+  </div>
+
+  <div id="models" class="section">
+    <h2><i class="fas fa-database"></i> Pre-trained Models</h2>
+
+
+<p>The trained models are available on Google Drive. Download and place them in the <code>Model/</code> folder before running the scripts.</p>
+    <a class="button" href="https://drive.google.com/drive/folders/1FIS8AevAMfvLMRsUfumYo_4qrQdsvQKc?usp=drive_link" target="_blank">
+      <i class="fas fa-cloud-download-alt"></i> Download Models
+    </a>
+  </div>
+
+  <div id="report" class="section">
+    <h2><i class="fas fa-file-pdf"></i> Project Report</h2>
+    <p>View or download the detailed report of the project:</p>
+    <a class="button" href="Diabetic Retinopathy-Project Report_2025.pdf" target="_blank">
+      <i class="fas fa-file-pdf"></i> Download PDF Report
+    </a>
+  </div>
+
+  <div id="github" class="section">
+    <h2><i class="fab fa-github"></i> GitHub Repository</h2>
+    <p>Access the source code, scripts, and dataset instructions:</p>
+    <a class="button" href="https://github.com/prajul7/Diabetic-Retinopathy" target="_blank">
+      <i class="fab fa-github"></i> Go to GitHub Repo
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 Diabetic Retinopathy Project</p>
+</footer>
+
+</body>
+</html>
