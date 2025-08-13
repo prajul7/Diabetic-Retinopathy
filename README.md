@@ -27,7 +27,7 @@ The trained models are available on Google Drive:
 
 - Place the downloaded models in the Model/ folder before running the scripts.
 
-## 🌐 Project Website (Demo)
+## 🌐 Project Website 
 
 You can explore the project via the demo page:
 
