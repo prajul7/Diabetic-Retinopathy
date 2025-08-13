@@ -31,7 +31,7 @@ The trained models are available on Google Drive:
 
 You can explore the project via the demo page:
 
-[Open Website](https://prajul7.github.io/Diabetic-Retinopathy/demo.html)
+[Open Website](https://prajulprakash.github.io/Diabetic-Retinopathy/demo.html)
 
 ### On this demo page:
 - Learn about the Diabetic Retinopathy project
